@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
 
 :root {
-    --primary-color: #38bdf8
-    ;
+    --primary-color: #38bdf8;
+    --off-white: #f967b0;
+    --emerald: #6ee7b7;
 }
 
 body {
@@ -74,7 +75,46 @@ hr {
 .navigation .link-active {
     font-weight: bold;
 }
+ 
 
+
+/*** header ***/
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--primary-color));
+
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--emerald);
+}
+
+
+/** section **/
+
+.section {
+    padding: 2rem
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+} 
+
+.ow {
+    background-color: var(--off-white);
+}
 
 
 
