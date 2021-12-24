@@ -27,8 +27,10 @@ hr {
 
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
 }
 
 .link-primary {
@@ -95,8 +97,9 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
-    color: var(--primary-color);
+     color: var(--primary-color);
 
 }
 
